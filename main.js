@@ -232,4 +232,24 @@ console.log(result)
 // foo(function(){
 //  console.log("bar")
 // })
- 
+
+
+//  the following code prints the current date with a format
+// today= new Date();
+// add= today.getDate();
+// mm= today.getMonth()+1;
+// yyyy= today.getFullYear();
+// if (add<10){
+// add= "0"+add
+// }
+// if (mm<10){
+// mm= "0"+mm
+// }
+// today = mm+'-'+add+'-'+yyyy;
+// console.log(today);
+// today = mm+'/'+add+'/'+yyyy;
+// console.log(today);
+// today = add+'-'+mm+'-'+yyyy;
+// console.log(today);
+// today = add+'/'+mm+'/'+yyyy;
+// console.log(today);
